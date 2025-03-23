@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB PAGE</title>
+</head>
+<body>
+<!------------ ordered list with roman numerals----->
+<ol type="I">
+    <li>JAPHES MURITHI</li>
+    <li>JAPHES MURITHI</li>
+    <li>clinton munene</li>
+    <li>Jared Etaba</li>
+</ol>
+
+
+<!---External image---->
+<h2>External image from pexels</h2>
+ <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Beautiful Scenery" width="500">
+
+
+<!---------contacts table-------->
+
+<h1>contact list</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Japhes murithi</td>
+        <td>60403, CHUKA</td>
+        <td>0769809329</td>
+        <td>japhesmurithi@gmail.com</td>
+    </tr>
+     <tr>
+        <td>kittim kudoz</td>
+        <td>60403, CHUKA</td>
+        <td>0769809329</td>
+        <td>japhesmurithi@gmail.com</td>
+    </tr>
+     <tr>
+        <td>Gracw wamaitha</td>
+        <td>60403, CHUKA</td>
+        <td>0769809329</td>
+        <td>japhesmurithi@gmail.com</td>
+    </tr>
+     <tr>
+        <td>Francis kahamisi</td>
+        <td>60403, CHUKA</td>
+        <td>0769809329</td>
+        <td>japhesmurithi@gmail.com</td>
+    </tr>
+     <tr>
+        <td>Marvin emobilis</td>
+        <td>60403, Nai</td>
+        <td>0769809329</td>
+        <td>japhesmurithi@gmail.com</td>
+    </tr>
+    </tbody>
+</table>
+<!----------------------Registaration form------------------->
+<h1>Registration Form</h1>
+<form method="POST" action="">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full  name" required>
+        <br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your  email" required>
+        <br>
+
+    <label for="mobile">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required
+           <br>
+
+    <!--------Dropdown-------->
+    <label for="country">Select country:</label>
+    <select id="country" name="country" required>
+        <option value="" >--select--</option>
+        <option value="uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Rwanda">Rwanda</option>
+        </select>
+    <br>
+
+    <!--------Radio Buttons------>
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required></input>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" required></input>
+    <label for="female">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other" required></input>
+    <label for="other">Other</label>
+    <br>
+
+
+    <!----------checkboxes-------->
+    <p>Interests:</p>
+    <input type="checkbox" id="sports" name="interests" value="sports" required></input>
+    <label for="sports">Sports</label>
+
+    <input type="checkbox" id="music" name="interests" value="music" required></input>
+    <label for="music">Music</label>
+
+    <input type="checkbox" id="travel" name="interests" value="travel" required></input>
+    <label for="travel">Travel</label>
+
+    <!-----submit button------------>
+    <button type="submit">Register</button>
+
+
+
+</form>
+
+</body>
+</html>
